@@ -1,0 +1,21 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/navigator"]
+	path = themes/navigator
+	url = https://github.com/themefisher/navigator-hugo.git
+[submodule "themes/alpha"]
+	path = themes/alpha
+	url = https://github.com/dewittn/hugo-html5up-alpha.git
+[submodule "themes/split-theme"]
+	path = themes/split-theme
+	url = https://github.com/escalate/hugo-split-theme.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/hugo-future-imperfect-slim"]
+	path = themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper

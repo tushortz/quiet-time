@@ -1,0 +1,41 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "Quiet time notes"
+theme = "paper"
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+enableEmoji = true
+
+homeSubtitle = "Quiet time notes"
+relatedPosts = true
+
+# Metadata mostly used in document's head
+description = "Quiet time notes"
+themeColor = "#494f5c"
+
+[author]
+  name = "Taiwo Kareem"
+
+
+[taxonomies]
+  books = "book"
+  notes = "title"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+[menu]
+
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Books"
+    url = "/book/"
+    weight = 10
