@@ -1,0 +1,31 @@
+baseURL = "https://quiettime.netlify.app/"
+languageCode = "en-gb"
+title = "Quiet time notes"
+theme = "tale"
+
+comments = true
+
+# Metadata mostly used in document's head
+description = "Quiet time notes"
+themeColor = "#494f5c"
+
+[taxonomies]
+  books = "book"
+
+[params]
+  author = "Taiwo Kareem"
+  description = "Compilation of my quiet time from YouVersion Bible"
+  summary = "HI"
+  css = ["custom.css"]
+
+
+[menu]
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Books"
+    url = "/book/"
+    weight = 20
