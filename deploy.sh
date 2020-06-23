@@ -1,4 +1,7 @@
 #!/bin/sh
+cd $HOME/software/biblenotes
+cd C:/software/biblenotes
+
 cd content
 rm -r notes
 rm -r public
