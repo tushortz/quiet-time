@@ -11,11 +11,11 @@ themeColor = "#494f5c"
 
 [taxonomies]
   books = "book"
+  notes = "tags"
 
 [params]
   author = "Taiwo Kareem"
   description = "Compilation of my quiet time from YouVersion Bible"
-  summary = "HI"
   css = ["custom.css"]
 
 
@@ -23,9 +23,19 @@ themeColor = "#494f5c"
   [[menu.main]]
     name = "Notes"
     url = "/notes/"
-    weight = 10
+    weight = 1
 
   [[menu.main]]
     name = "Books"
     url = "/book/"
-    weight = 20
+    weight = 2
+
+  [[menu.main]]
+    name = "Songs"
+    url = "/songs/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Song tags"
+    url = "/tags/"
+    weight = 4
