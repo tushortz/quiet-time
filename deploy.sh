@@ -5,7 +5,7 @@ cd content
 rm -r notes
 rm -r public
 
-# python note_to_md.py
+python note_to_md.py
 
 # If a command fails then the deploy stops
 set -e
