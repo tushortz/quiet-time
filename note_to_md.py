@@ -28,7 +28,7 @@ has_data = True
 index = 1
 
 USERNAME = os.getenv("BIBLE_USERNAME")
-PASSWORD = os.getenv("PASSWORD")
+PASSWORD = os.getenv("BIBLE_PASSWORD")
 
 b = Bible(USERNAME, PASSWORD)
 
@@ -37,7 +37,7 @@ while has_data:
 
     if type(notes) == dict and notes.get("error"):
         has_data = False
-
+        
     for note in notes:
         _obj = note["object"]
         text = _obj["content"]

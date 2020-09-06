@@ -1,13 +1,12 @@
 #!/bin/sh
 cd $HOME/software/biblenotes
 cd C:/software/biblenotes
-
 cd content
 rm -r notes
 rm -r public
 
-python ../note_to_md.py
-cd ../
+# python note_to_md.py
+
 # If a command fails then the deploy stops
 set -e
 
