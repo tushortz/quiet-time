@@ -59,7 +59,7 @@ while has_data:
         # quit()
         for loc in locs:
             book, chapter, verse = loc.split(".")
-            folder = f"notes/{book.lower()}"
+            folder = f"content/notes/{book.lower()}"
 
             if not os.path.exists(folder):
                 os.makedirs(folder)
