@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>worship on Quiet time notes</title>
+    <link>https://quiettime.netlify.app/tags/worship/</link>
+    <description>Recent content in worship on Quiet time notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 25 Jun 2020 01:49:10 +0100</lastBuildDate><atom:link href="https://quiettime.netlify.app/tags/worship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oh Lord Majesty</title>
+      <link>https://quiettime.netlify.app/songs/oh-lord-majesty/</link>
+      <pubDate>Thu, 25 Jun 2020 01:49:10 +0100</pubDate>
+      
+      <guid>https://quiettime.netlify.app/songs/oh-lord-majesty/</guid>
+      <description>Oh Lord, majesty
+we come, prince of peace
+glory to your Holy name
+glory to your Holy name</description>
+    </item>
+    
+  </channel>
+</rss>

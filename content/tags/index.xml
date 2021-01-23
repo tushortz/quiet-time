@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Quiet time notes</title>
+    <link>https://quiettime.netlify.app/tags/</link>
+    <description>Recent content in Tags on Quiet time notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 25 Jun 2020 01:49:10 +0100</lastBuildDate><atom:link href="https://quiettime.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>majesty</title>
+      <link>https://quiettime.netlify.app/tags/majesty/</link>
+      <pubDate>Thu, 25 Jun 2020 01:49:10 +0100</pubDate>
+      
+      <guid>https://quiettime.netlify.app/tags/majesty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>worship</title>
+      <link>https://quiettime.netlify.app/tags/worship/</link>
+      <pubDate>Thu, 25 Jun 2020 01:49:10 +0100</pubDate>
+      
+      <guid>https://quiettime.netlify.app/tags/worship/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
