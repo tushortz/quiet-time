@@ -1,27 +1,26 @@
 #!/bin/sh
 cd C:/Software/biblenotes
 
-rm -r notes
-rm -r public
+# rm -r notes
+# rm -r public
 
-echo "Generating notes ..."
-python note_to_md.py
+# echo "Generating notes ..."
+# python note_to_md.py
 
-# If a command fails then the deploy stops
-set -e
+# # If a command fails then the deploy stops
+# set -e
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+# printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
-echo "Building project ..."
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# echo "Building project ..."
+# hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-echo "Copying content"
-cp public/* -r content
+# echo "Copying content"
+# cp public/* -r content
 
 # Add changes to git.
 git add .
-
 # Commit changes.
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
